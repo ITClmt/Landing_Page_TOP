@@ -1,0 +1,125 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: space-around;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: #e5e7eb;
+    margin: auto;
+    font-size: 18px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* PRESENTATION */
+
+#presentation {
+    display: flex;
+    height: 450px;
+    color: white;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.text-presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.text-presentation h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.text-presentation p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#presentation img {
+    object-fit: cover;
+    height: 350px;
+}
+
+.Signup-button {
+    color: white;
+    background-color: #3882f6;
+    height: 30px;
+    width: 75px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.Signup-button:hover {
+    background-color: aqua;
+}
+
+/* INFORMATION */
+
+#information {
+    height: 450px;
+}
+
+#information h3 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.info-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 65px;
+}
+
+.image-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px; 
+    text-align: center;
+    font-style: italic;
+}
+
+.image-info img {
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
+    border: 2px solid #3882f6;
+    border-radius: 25px;
+}
