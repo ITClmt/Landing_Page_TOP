@@ -123,3 +123,85 @@ header a:hover {
     border: 2px solid #3882f6;
     border-radius: 25px;
 }
+
+/* QUOTE SECTION */
+
+#quote_section {
+    display: flex;
+    height: 350px;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.author {
+    align-self:flex-end ;
+    font-style: normal;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* SIGNUP SECTION */
+
+#sign_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.container_signup {
+    display: flex;
+    background-color: #3882f6;
+    height: 150px;
+    width: 1250px;
+    justify-content: space-around;
+    align-items: center;
+    color: #e5e7eb;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.cta_text_bold {
+    font-weight: bold;
+}
+
+.Signup-button2 {
+    border: 2px solid white;
+    background-color: #3882f6;
+    height: 30px;
+    width: 90px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.Signup-button2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.Signup-button2:hover {
+    background-color: aqua;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    height: 75px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
