@@ -11,6 +11,6 @@
     
     ..To this
     
-        [Live Preview](https://itclmt.github.io/Landing_Page_TOP/)
+        https://itclmt.github.io/Landing_Page_TOP/
     
     
